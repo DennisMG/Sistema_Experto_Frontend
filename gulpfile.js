@@ -91,7 +91,7 @@ gulp.task('default', function(){
 gulp.task('heroku:dev', function(){
   runSequence(
     ['clean-bundles'],
-    ['less', 'scripts']
+    ['less', 'scripts','connect']
   );
 });
 gulp.task('build', function() {
