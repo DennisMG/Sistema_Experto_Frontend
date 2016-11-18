@@ -90,6 +90,6 @@ gulp.task('default', function(){
 gulp.task('build', function() {
   runSequence(
     ['clean'],
-    ['less', 'scripts', 'minify-css', 'minify-js', 'copy-html-files', 'copy-bower-components', 'connectDist']
+    ['less', 'scripts', 'minify-css', 'minify-js', 'copy-html-files', 'copy-bower-components']
   );
 });
