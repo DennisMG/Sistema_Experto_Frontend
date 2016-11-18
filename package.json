@@ -4,7 +4,9 @@
   "description": "frontend app",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+     "start": "node app",
+     "postinstall": "gulp default"
   },
   "author": "",
   "license": "ISC",
