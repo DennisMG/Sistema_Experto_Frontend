@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
      "start": "node app",
-     "postinstall": "gulp default"
+     "postinstall": "gulp build"
   },
   "author": "",
   "license": "ISC",
