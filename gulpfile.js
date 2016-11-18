@@ -84,7 +84,7 @@ gulp.task('bundle', function(){
 gulp.task('default', function(){
   runSequence(
     ['clean-bundles'],
-    ['less', 'scripts', 'connect']
+    ['less', 'scripts']
   );
 });
 gulp.task('build', function() {
