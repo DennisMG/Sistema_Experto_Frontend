@@ -46,7 +46,6 @@ gulp.task('copy-html-files', function () {
 gulp.task('connect', function () {
   connect.server({
     root: 'app/',
-    port: process.env.PORT,
     livereload: false
   });
     console.log("PORT: "+process.env.PORT);
