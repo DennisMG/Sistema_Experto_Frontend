@@ -94,7 +94,12 @@ gulp.task('default', function(){
     ['less', 'scripts']
   );
 });
-gulp.tasks('heroku:default', [default]);
+gulp.tasks('heroku:default', , function(){
+  runSequence(
+    ['clean-bundles'],
+    ['less', 'scripts']
+  );
+});
 gulp.task('build', function() {
   runSequence(
     ['clean'],
