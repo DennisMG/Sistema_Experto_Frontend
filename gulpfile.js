@@ -49,6 +49,8 @@ gulp.task('connect', function () {
     port: process.env.PORT,
     livereload: false
   });
+    console.log("PORT: "+process.env.PORT);
+    console.log(process.env.PORT);
 });
 gulp.task('connectDist', function () {
   connect.server({
