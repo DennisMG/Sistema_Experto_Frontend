@@ -86,16 +86,16 @@ gulp.task('bundle', function(){
 gulp.task('default', function(){
   runSequence(
     ['clean-bundles'],
-    ['less', 'scripts']
-  );
-});
-
-gulp.task('heroku:dev', function(){
-  runSequence(
-    ['clean-bundles'],
     ['less', 'scripts','connect']
   );
 });
+
+// gulp.task('heroku:dev', function(){
+//   runSequence(
+//     ['clean-bundles'],
+//     ['less', 'scripts','connect']
+//   );
+// });
 gulp.task('build', function() {
   runSequence(
     ['clean'],
