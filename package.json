@@ -5,7 +5,6 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "test",
-     "start": "node app",
      "preinstall": "gulp default"
   },
   "author": "",
